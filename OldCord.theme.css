@@ -6,29 +6,21 @@
  * **/
 
 /* Main components of OldCord */
-/* @import url("https://milbits.github.io/oldcord/src/components/vars.css");test */
+/* Except for vars.css, remove or add anything you need. By default, this uses*/
+@import url("https://djs4gnx.github.io/mycord/src/components/vars.css"); /* this is always required */
+@import url("https://djs4gnx.github.io/mycord/src/components/color.css"); /* Restores old blurple... duh! */
+@import url("https://djs4gnx.github.io/mycord/src/components/imgs.css"); /* Restores original 2020 default avatars and other icon changes */
+@import url("https://djs4gnx.github.io/mycord/src/components/other.css"); /* Handles fonts, server list ui etc. */
+@import url("https://djs4gnx.github.io/mycord/src/components/redesign.css"); /* Restores the original Discord layout */
+/* @import url("https://djs4gnx.github.io/mycord/src/components/profile.css"); */ /* Restores the original 2020 UI. Prone to breaking in some cases and may cause lag, so I don't use it)
 
-
-/*If you want to enable/disable each part (like disable profile theming), remove the above line
-and a [slash]* below. Always enable vars.css though please please pelasse plealslelle*/
-
-/* @import url("https://milbits.github.io/oldcord/src/components/vars.css"); */ /* !IMPORTANT! */
-/* @import url("https://milbits.github.io/oldcord/src/components/color.css"); */
-/* @import url("https://milbits.github.io/oldcord/src/components/imgs.css"); */
-/* @import url("https://milbits.github.io/oldcord/src/components/other.css"); */
-/* @import url("https://milbits.github.io/oldcord/src/components/profile.css"); */
-/* @import url("https://milbits.github.io/oldcord/src/components/redesign.css"); */ /*Changes the overall layout*/
-
-
- /*
-  * Addons
-  * remove a "/*" below to enable one
-  */
-
-  /*@import url("https://milbits.github.io/oldcord/src/components/oldEmojis.css");*/
-  /*@import url("https://milbits.github.io/oldcord/src/components/oldContext.css");*/
-  /*@import url("https://milbits.github.io/oldcord/src/components/showEffects.css");*/
-
+/* Optional components */
+@import url("https://milbits.github.io/oldcord/src/components/oldEmojis.css"); /* Use original pleading emoji */
+@import url("https://milbits.github.io/oldcord/src/components/oldContext.css"); /* Use original context (right click) menu background */
+/* @import url("https://milbits.github.io/oldcord/src/components/showEffects.css"); */ /* Restore profile effects. */
+/*@import url("https://milbits.github.io/oldcord/src/components/miyamoto.css");*/ /* ??? */
   
-/*this one sucks dont use it*/
-  /*@import url("https://milbits.github.io/oldcord/src/components/miyamoto.css");*/
+/* add back reaction animations, 1 is on and 0 is off */
+:root {
+    --reaction-animation: 0;
+}
