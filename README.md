@@ -8,7 +8,7 @@ Created to work with my own preferences while also having an online backup.
 ## Changes made
 - Commented out profile.css by default (you can still enable it if you want)  
 - Added commented explanations to all the modules of Oldcord (QOL for anybody customizing)  
-- Restored clan tags by commenting out relevant other.css code, moved the code that removes it to a dedicated module instead  
+- Make clan tag removal an opt-in addon instead of a forced opt-out (to make it togglable)  
 
 ## Planned features
 - Compatibility with Dorion v6.7 and later
