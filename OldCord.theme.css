@@ -1,14 +1,13 @@
 /**
- * @name OldCord
- * @version 2.0
- * @author milbit, kinggamingyt
+ * @name Oldcord (DJSng edit)
+ * @author DJSng
  * @source https://github.com/milbits/oldcord
- * @website https://github.com/milbits/oldcord
- * @description Restores discord's 2020 UI
- */
+ * @description Customized version of Oldcord by DJSng
+ * **/
 
-/*Main theme components*/
-@import url("https://milbits.github.io/oldcord/src/main.css");
+/* Main components of OldCord */
+/* @import url("https://milbits.github.io/oldcord/src/components/vars.css");test */
+
 
 /*If you want to enable/disable each part (like disable profile theming), remove the above line
 and a [slash]* below. Always enable vars.css though please please pelasse plealslelle*/
