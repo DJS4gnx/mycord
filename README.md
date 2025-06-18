@@ -33,4 +33,4 @@ Created to work with my own preferences while also having an online backup.
 You will unfortunately have to uncomment and recomment stuff I've edited if you want to make changes to what's enabled and disabled.   
 By default, the theme uses my own settings.
 
-If you are further confused, you will have to visit [the original repository](https://github.com/milbits/oldcord)
+If you are further confused, you should use [the original repository](https://github.com/milbits/oldcord) instead.
