@@ -16,6 +16,7 @@
 
 /* Optional components */
 
+@import url("https://djs4gnx.github.io/mycord/src/components/noTags.css"); /* Removes clan tags for those who insist to not want them */
 @import url("https://djs4gnx.github.io/mycord/src/components/oldEmojis.css"); /* Use original pleading emoji */
 @import url("https://djs4gnx.github.io/mycord/src/components/oldContext.css"); /* Use original context (right click) menu background */
 /* @import url("https://djs4gnx.github.io/mycord/src/components/showEffects.css"); */ /* Restore profile effects. */
