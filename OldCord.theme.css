@@ -6,13 +6,13 @@
  * **/
 
 /* Main components of OldCord */
-/* Except for vars.css, remove or add anything you need. By default, this uses*/
-@import url("https://djs4gnx.github.io/mycord/src/components/vars.css"); /* this is always required */
+/* Except for vars.css, remove or add anything you need. By default, this uses my preferences */
+@import url("https://djs4gnx.github.io/mycord/src/components/vars.css"); /* This is always required. Do not remove it! */
 @import url("https://djs4gnx.github.io/mycord/src/components/color.css"); /* Restores old blurple... duh! */
 @import url("https://djs4gnx.github.io/mycord/src/components/imgs.css"); /* Restores original 2020 default avatars and other icon changes */
 @import url("https://djs4gnx.github.io/mycord/src/components/other.css"); /* Handles fonts, server list ui etc. */
 @import url("https://djs4gnx.github.io/mycord/src/components/redesign.css"); /* Restores the original Discord layout */
-/* @import url("https://djs4gnx.github.io/mycord/src/components/profile.css"); */ /* Restores the original 2020 UI. Prone to breaking in some cases and may cause lag, so I don't use it)
+/* @import url("https://djs4gnx.github.io/mycord/src/components/profile.css"); */ /* Restores the original 2020 UI. Prone to breaking in some cases and may cause lag, so I don't use it) */
 
 /* Optional components */
 @import url("https://milbits.github.io/oldcord/src/components/oldEmojis.css"); /* Use original pleading emoji */
