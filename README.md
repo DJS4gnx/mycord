@@ -1,5 +1,7 @@
-# OldCord
+# DJSng's Oldcord
+An edit of Oldcord, a 2020 UI theme for Discord. 
 
+## Original description
 A theme for Discord that brings the **2020** (NOT pre-2025 refresh) UI back without removing features
 
  By default, it completely removes profile effects (like banners). See addons below to get them back!
