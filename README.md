@@ -6,7 +6,7 @@ Do not ask for support on my fork on their repo. Just use the original OldCord, 
 Created to work with my own preferences while also having an online backup.
 
 ## Changes made
-- Commented out profile.css by default (you can still enable it if you want)  
+- OldCord.theme.css uses my preferences by default (everything on EXCEPT profiles.css)  
 - Added commented explanations to all the modules of Oldcord (QOL for anybody customizing)  
 - Make clan tag removal an opt-in addon instead of a forced opt-out (to make it togglable)  
 
