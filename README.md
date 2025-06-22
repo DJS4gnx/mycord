@@ -1,7 +1,7 @@
 # DJSng's Oldcord
 A personal edit of Oldcord, a 2020 UI theme for Discord created by Milbits and kinggamingyt.
 **This is not a replacement for the original Oldcord**, nor associated with the original repository. You should see [the original repository](https://github.com/milbits/oldcord) for that.  
-Do not ask for support on my fork on their repo. Just use the original OldCord, if you're having issues.  
+Do not ask for support for my fork on their repo. Just use the original OldCord if you're having issues.  
 
 Created to work with my own preferences while also having an online backup.
 
@@ -14,7 +14,8 @@ Created to work with my own preferences while also having an online backup.
 
 
 ## Planned features
-N/A
+- **Proper** fix for Dorion (no Titlebar, no black line on the controls)  
+- Fix compatibility with Dorion's window controls
 
 ## Optional addons
 - Hide clan tags  
