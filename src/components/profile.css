@@ -981,6 +981,7 @@ section .headings_bf424d:has(+.root_fccfdf) /*"roles" header on bots*/ {
 	transform: translate(0);
 	border: 0 !important;
 	border-radius: 4200px;
+	max-width: 225px !important;
 }
 
 .addButtonIcon__48c1c {
