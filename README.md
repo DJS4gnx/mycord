@@ -8,7 +8,8 @@ Created to work with my own preferences while also having an online backup.
 ## Changes made
 - OldCord.theme.css uses my preferences by default (everything on EXCEPT profiles.css)  
 - Added commented explanations to all the modules of Oldcord (QOL for anybody customizing)  
-- Make clan tag removal an opt-in addon instead of a forced opt-out (to make it togglable)  
+- Added addon to remove the titlebar (intended for clients that do not already enable the native titlebar, ie: discord official)   
+- Clan tag removal is now handled by a separate addon, not others.css  
 
 ## Planned features
 - Compatibility with Dorion v6.7 and later
