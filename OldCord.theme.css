@@ -16,7 +16,8 @@
 
 /* Optional components */
 
-/* @import url("https://djs4gnx.github.io/mycord/src/components/noTags.css"); */ /* Removes clan tags for those who insist to not want them */
+
+/* @import url("https://djs4gnx.github.io/mycord/src/components/addons/noTags.css"); */ /* Removes clan tags for those who insist to not want them */
 @import url("https://djs4gnx.github.io/mycord/src/components/addons/oldEmojis.css"); /* Use original pleading emoji */
 @import url("https://djs4gnx.github.io/mycord/src/components/addons/oldContext.css"); /* Use original context (right click) menu background */
 /* @import url("https://djs4gnx.github.io/mycord/src/components/addons/showEffects.css"); */ /* Restore profile effects. */
@@ -25,3 +26,10 @@
 :root {
     --reaction-animation: 0;
 }
+
+/* @import url("https://djs4gnx.github.io/mycord/src/components/addons/noCustomTitlebar.css"); */ /* Windows -- Remove the native titlebar for Official Discord Client users */
+
+/* ^^^ DO NOT ENABLE UNLESS YOU ARE USING WINDOW'S TITLEBAR. IF YOU DON'T KNOW WHAT THAT MEANS, OR ARE YOU USING THE ONE DISCORD USES BY DEFAULT, DO NOT ENABLE THIS!
+You must already have enabled the Native Titlebar. If you are interested, try this guide: https://gist.github.com/Soapbosnia/5ff2c69f2bdd404aa96df3a3691105dc
+
+Make backups first. I'm not responsible for whatever you do doing this. */
