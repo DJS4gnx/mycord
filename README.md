@@ -8,11 +8,19 @@ Created to work with my own preferences while also having an online backup.
 ## Changes made
 - OldCord.theme.css uses my preferences by default (everything on EXCEPT profiles.css)  
 - Added commented explanations to all the modules of Oldcord (QOL for anybody customizing)  
-- Added addon to remove the titlebar (intended for clients that do not already enable the native titlebar, ie: discord official)   
-- Clan tag removal is now handled by a separate addon, not others.css  
+- Clan tag removal is now a separate addon, not other.css (I did this because showEffects.css wouldn't re-enable them)  
+- Alternative redesign.css file for Dorion v6.7+ users  
+- Additional addon to remove Window Control for Official Discord Client users (Windows only)  
+
 
 ## Planned features
-- Compatibility with Dorion v6.7 and later
+N/A
+
+## Optional addons
+- Hide clan tags  
+- Hide Discord window controls (Official Discord Client users)  
+- redesign.css alternative for Dorion users  
+- Most of the original OldCord addons (showEffects, oldEmojis, oldContext)
 
 ## Installing
 ### Online Themes (Vencord & Equicord)

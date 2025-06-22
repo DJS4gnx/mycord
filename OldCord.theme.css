@@ -11,10 +11,16 @@
 @import url("https://djs4gnx.github.io/mycord/src/components/color.css"); /* Restores old blurple... duh! */
 @import url("https://djs4gnx.github.io/mycord/src/components/imgs.css"); /* Restores original 2020 default avatars and other icon changes */
 @import url("https://djs4gnx.github.io/mycord/src/components/other.css"); /* Handles fonts, server list ui etc. */
-@import url("https://djs4gnx.github.io/mycord/src/components/redesign.css"); /* Restores the original Discord layout, pre-2025 refresh */
-/* import url("https://djs4gnx.github.io/mycord/src/components/redesign-dorion.css"); */ /* Very rough fix of redesign.css for the edgewebview-based Dorion discord client, removes all the titlebar code. it does not remove the "Discord" titlebar and Dorion already removes the titlebar buttons, so this is as best as it's getting */
-
 /* @import url("https://djs4gnx.github.io/mycord/src/components/profile.css"); */ /* Restores the original 2020 Profile UI. Prone to breaking in some cases and may cause lag, so I don't use it) */
+@import url("https://djs4gnx.github.io/mycord/src/components/redesign.css"); /* Restores the original Discord layout, pre-2025 refresh */
+/* import url("https://djs4gnx.github.io/mycord/src/components/redesign-dorion.css"); */
+/* The component above is a replacement of the original redesign.css file intended for users of the Edge Webview-based discord client Dorion. It removes the web titlebar removing code but very slightly misaligns the help and inbox buttons. I tried to realign them best I could.
+
+Native Titlebar must be enabled or the window controls will be overlayed over the search bar and inbox button, and the search bar will be misaligned.
+
+Do not enable this if you use a different client (Vesktop, Official, Legcord, etc...), pretty much every other client handles this fine. */
+
+
 
 /* Optional components */
 
@@ -33,7 +39,7 @@
 /* Windows -- Remove the native titlebar for Official Discord Client users.
 Very rough, does not hide the titlebar when in settings */
 
-/* ^^^ DO NOT ENABLE UNLESS YOU ARE USING WINDOW'S TITLEBAR. IF YOU DON'T KNOW WHAT THAT MEANS, OR ARE YOU USING THE ONE DISCORD USES BY DEFAULT, DO NOT ENABLE THIS!
+/* ^^^ DO NOT ENABLE UNLESS YOU ARE USING WINDOWS' NATIVE TITLEBAR. IF YOU DON'T KNOW WHAT THAT MEANS, OR ARE YOU USING THE ONE DISCORD USES BY DEFAULT, DO NOT ENABLE THIS!
 You must already have enabled the Native Titlebar. If you are interested, try this guide: https://gist.github.com/Soapbosnia/5ff2c69f2bdd404aa96df3a3691105dc
 
 Make backups first. I'm not responsible for whatever you do doing this. */
