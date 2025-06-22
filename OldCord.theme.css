@@ -17,10 +17,9 @@
 /* Optional components */
 
 /* @import url("https://djs4gnx.github.io/mycord/src/components/noTags.css"); */ /* Removes clan tags for those who insist to not want them */
-@import url("https://djs4gnx.github.io/mycord/src/components/oldEmojis.css"); /* Use original pleading emoji */
-@import url("https://djs4gnx.github.io/mycord/src/components/oldContext.css"); /* Use original context (right click) menu background */
-/* @import url("https://djs4gnx.github.io/mycord/src/components/showEffects.css"); */ /* Restore profile effects. */
-/* @import url("https://djs4gnx.github.io/mycord/src/components/miyamoto.css");*/ /* ??? */
+@import url("https://djs4gnx.github.io/mycord/src/components/addons/oldEmojis.css"); /* Use original pleading emoji */
+@import url("https://djs4gnx.github.io/mycord/src/components/addons/oldContext.css"); /* Use original context (right click) menu background */
+/* @import url("https://djs4gnx.github.io/mycord/src/components/addons/showEffects.css"); */ /* Restore profile effects. */
   
 /* add back reaction animations, 1 is on and 0 is off */
 :root {
