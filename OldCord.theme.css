@@ -25,7 +25,7 @@ Do not enable this if you use a different client (Vesktop, Official, Legcord, et
 /* Optional components */
 
 
-/* @import url("https://djs4gnx.github.io/mycord/src/components/addons/noTags.css"); */ /* Removes clan tags for those who insist to not want them */
+/* @import url("https://djs4gnx.github.io/mycord/src/components/showTags.css"); */ /* Add clan tags back */
 @import url("https://djs4gnx.github.io/mycord/src/components/addons/oldEmojis.css"); /* Use original pleading emoji */
 @import url("https://djs4gnx.github.io/mycord/src/components/addons/oldContext.css"); /* Use original context (right click) menu background */
 /* @import url("https://djs4gnx.github.io/mycord/src/components/addons/showEffects.css"); */ /* Restore profile effects. */
