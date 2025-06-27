@@ -29,6 +29,7 @@ Do not enable this if you use a different client (Vesktop, Official, Legcord, et
 @import url("https://djs4gnx.github.io/mycord/src/components/addons/oldEmojis.css"); /* Use original pleading emoji */
 @import url("https://djs4gnx.github.io/mycord/src/components/addons/oldContext.css"); /* Use original context (right click) menu background */
 /* @import url("https://djs4gnx.github.io/mycord/src/components/addons/showEffects.css"); */ /* Restore profile effects. */
+@import url("https://djs4gnx.github.io/mycord/src/components/addons/cleanerChatButtons.css"); /* remove some chat buttons. this removes some buttons some users may need or want, beware */
   
 /* add back reaction animations, 1 is on and 0 is off */
 :root {

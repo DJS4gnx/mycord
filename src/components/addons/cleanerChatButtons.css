@@ -1,0 +1,48 @@
+/* cleaning some buttons on chat */
+/* source: https://gist.github.com/cheesits456/41d659f932b5a574b5dfb9b391a4506e */
+
+/* Hide Nitro gift button */
+button[aria-label="Send a gift"] {
+    display: none;
+}
+/* Hide GIF picker button */
+button[aria-label="Open GIF picker"] {
+    display: none;
+}
+/* Hide sticker picker button */
+button[aria-label="Open sticker picker"] {
+    display: none;
+}
+/* Hide annoying sticker popup window that appears when you type */
+.channelTextArea-1FufC0 > .container-1ZA19X {
+    display: none;
+}
+
+/* cleaner stuff */
+/* source: https://gist.github.com/Lyceris-chan/06a9cdb50c01164456fea8c5df5b1662 */
+
+/* Hide the activities button when in call */
+button[aria-label="Start an Activity"] {
+  display: none;
+}
+
+
+/* remove apps god damnit */
+/* source: https://raw.githubusercontent.com/Bonkeyzz/Discord-Remove-useless-chat-buttons/main/RemoveChatButtonsAll.theme.css */
+[aria-label="Apps"] {
+display:none
+}
+[aria-label="Open GIF picker"] {
+display:none
+}
+[aria-label="Open sticker picker"] {
+display:none
+}
+[aria-label="Send a gift"] {
+display:none
+}
+div[class^="channelAppLauncher"] {
+display:none
+}
+
+
