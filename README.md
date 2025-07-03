@@ -1,44 +1,6 @@
 # DJSng's Oldcord
 A personal edit of Oldcord, a 2020 UI theme for Discord created by Milbits and kinggamingyt.
-**This is not a replacement for the original Oldcord**, nor associated with the original repository. You should see [the original repository](https://github.com/milbits/oldcord) for that.  
+~~**This is not a replacement for the original Oldcord**, nor associated with the original repository. ~~ Just use the [the original repository](https://github.com/milbits/oldcord)
 Do not ask for support for my fork on their repo. Just use the original OldCord if you're having issues.  
 
-Created to work with my own preferences while also having an online backup.
-
-## Changes made
-- OldCord.theme.css uses my preferences by default (everything on EXCEPT profiles.css)  
-- Alternative comment explanations  
-- Alternative redesign.css file for Dorion v6.7+ users  
-- Additional addon to remove Window Control for Official Discord Client users (Windows only)  
-
-
-## Planned features
-- **Proper** fix for Dorion (no Titlebar, no black line on the controls)  
-- Fix compatibility with Dorion's window controls
-
-## Optional addons
-- Hide Discord window controls (Official Discord Client users)  
-- redesign.css alternative for Dorion users  
-- Most of the original OldCord addons (showEffects, oldEmojis, oldContext)
-
-## Installing
-### Online Themes (Vencord & Equicord)
-1. Copy `https://djs4gnx.github.io/mycord/OldCord.theme.css`
-2. Paste where you need to insert a link, hit save bla bla
-3. Ur gold
-
-### QuickCSS (Vencord & Equicord, any mod with a CSS Editor)
-1. Open Oldcord.theme.css
-2. Copy everything below the first 7 lines
-3. Paste into your QuickCSS editor
-4. Save it, enable QuickCSS or restart if you have to  
-
-### Theme file (BetterDiscord, Dorion & other required mods)
-1. Download Oldcord.theme.css
-2. Place it in your themes folder
-
-## Making edits
-You will unfortunately have to uncomment and recomment stuff I've edited if you want to make changes to what's enabled and disabled.   
-By default, the theme uses my own settings.
-
-If you are further confused, you should use [the original repository](https://github.com/milbits/oldcord) instead.
+~~Created to work with my own preferences while also having an online backup.~~ This fork is deprecated. See more information: https://github.com/DJSng106/mycord/edit/main/discontinuation.md
