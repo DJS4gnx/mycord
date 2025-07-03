@@ -7,7 +7,8 @@ It's too much effort. This entire fork would have only existed as a POC to re-ad
 
 More boring yap, bla bla, if you care so much about using Dorion, just go make an issue about it. I'm going to see if I can get a debug option in Dorion to disable the titlebar, which will probably kill the need for a fix entirely. This is so dumb.  
 Older versions of Dorion that don't remove the titlebar work fine with OldCord, because OldCord already removes the titlebar. Plus, I think Vesktop does something differently that Dorion doesn't, because this issue shouldn't have been real in the first place.
-It seemed the fix milbits tried was for Linux, and even trying to play around with it, I couldn't even get it to work. Not a shocker there either. This issue is really handled for somebody else. Nobody even cares, all I can say is just to use Vesktop for now.  
+~~It seemed the fix milbits tried was for Linux, and even trying to play around with it, I couldn't even get it to work~~. Edit: I swapped "linux" to "windows" properly and Ash is broken (using mostly Light mode assets). Darker works but looks *very* off, maybe because it was **not** intended to be used without ClientTheme  
+All I can say is just to use Vesktop for now.  
 
 If you're using Dorion, honestly just downgrade to 6.5.3 until either Dorion fixes this specific incompatibility, or some compatibility fix is released for OldCord that works with all OSes.  
 Spike thinks that you could fix this with a CSS hack. I think you know how relevant and helpful that is.  
