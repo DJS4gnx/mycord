@@ -10,7 +10,7 @@ Older versions of Dorion that don't remove the titlebar work fine with OldCord, 
 ~~It seemed the fix milbits tried was for Linux, and even trying to play around with it, I couldn't even get it to work~~. Edit: I swapped "linux" to "windows" properly and Ash is broken (using mostly Light mode assets). Darker works but looks *very* off, maybe because it was **not** intended to be used without ClientTheme  
 All I can say is just to use Vesktop for now.  
 
-If you're using Dorion, honestly just downgrade to 6.5.3 until either Dorion fixes this specific incompatibility, or some compatibility fix is released for OldCord that works with all OSes.  
+If you're using Dorion, honestly just downgrade to 6.5.3 until either Dorion fixes this specific incompatibility, or some compatibility fix is released for OldCord.  
 Spike thinks that you could fix this with a CSS hack. I think you know how relevant and helpful that is.  
 
 By the way, a screenshot of how Dorion handles OldCord by default is here: https://github.com/DJSng106/mycord/blob/main/image.png
